@@ -11,7 +11,8 @@ body {
 	background:  url('http://upload.wikimedia.org/wikipedia/commons/1/1f/Chest_Xray_PA_3-8-2010_inverted.png');
 	background-attachment:fixed;
 	background-size: cover;
-
+	font-size: 10.5pt;
+	font-family: sans-serif;
 	height: 80%;
 	
 
@@ -41,7 +42,7 @@ body:after {
 }
 
 h2 {
-	border-bottom:none;
+	border-bottom: 1px solid gray;
 	padding-left:5px;
 	font-size:large;
 }
@@ -86,6 +87,7 @@ p {
 
 #Coordonnees a {
 display: block;
+line-height: 140%;
 }
 .institution {
   font-style: italic;

@@ -4,13 +4,19 @@
 	<Nom>Nicolas Blais St-Laurent</Nom>
 	<Coordonnees>
 		<Courriel>nicolas.blais.stlaurent@gmail.com</Courriel>
-		<Telephone>+1-514-522-2003</Telephone>
+		<Telephone>+1-438-321-7820</Telephone>
 	</Coordonnees>
 	<Experiences>
 		<Emploi>
 			<Titre>Inhalotherapeute</Titre>
 			<Institution>Centre hospitalier de l'Université de Montréal</Institution>
 			<Moment>Depuis 2016</Moment>
+			<Realisations>
+				<Realisation>
+					<Description>
+					</Description>
+				</Realisation>
+			</Realisations>
 		</Emploi>
 		<Emploi>
 			<Moment>2013 à 2016</Moment>
@@ -28,6 +34,18 @@
 			<Moment>2004 à 2006</Moment>
 		</Emploi>
 	</Experiences>
+	<Certifications>
+		<Certification>
+			<Titre>Soins immédiats pour Professionnels de la santé (incluant le DEA)</Titre>
+			<Organisme>Fondation des maladies du coeur et de l'ACV</Organisme>
+			<Moment>Janvier 2017</Moment>
+		</Certification>
+		<Certification>
+			<Titre>Programme de réanimation néonatale (cours 1 à 11), Mégacode/EPI avancé</Titre>
+			<Organisme>Société canadienne de pédiatrie</Organisme>
+			<Moment>Octobre 2017</Moment>
+		</Certification>
+	</Certifications>
 	<Formations>
 
 		<Formation>

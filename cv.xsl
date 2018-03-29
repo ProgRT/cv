@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:output method="html" doctype-system="about:legacy-compat"/>
 
 	<xsl:template match="/">
 
 		<html>
 			<head>
 				<meta charsset="utf-8"/>
+				<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
 				<link rel="stylesheet" href="style.css" />
 				<link rel="stylesheet" href="screen.css" media="screen" />
 				<link rel="stylesheet" href="print.css" media="print" />
@@ -18,6 +21,7 @@
 					<xsl:apply-templates select="cv/Coordonnees"/>
 					</header>
 					<xsl:apply-templates select="cv/Experiences"/>
+					<xsl:apply-templates select="cv/Certifications"/>
 					<xsl:apply-templates select="cv/Formations"/>
 					<xsl:apply-templates select="cv/Publications"/>
 					<xsl:apply-templates select="cv/Informatique"/>
@@ -78,6 +82,28 @@
 	</xsl:template>
 
 <!---
+			Certifications
+-->
+
+	<xsl:template match="cv/Certifications">
+		<section>
+		<h2>Certifications</h2>
+		<table>				
+			<xsl:apply-templates select="Certification"/>	
+		</table>
+		</section>
+	</xsl:template>
+
+	<xsl:template match="Certification">
+		<tr>
+			<th><xsl:value-of select="Moment"/></th>
+			<td>
+				<p><xsl:value-of select="Titre"/></p>
+				<p class="institution"><xsl:value-of select="Organisme"/></p>
+			</td>
+		</tr>
+	</xsl:template>
+<!---
                           competences linguistiques                            
 -->
 
@@ -113,6 +139,7 @@
 		<section>
 		<h2>Compétences informatiques</h2>
 		<table>				
+<!--
 			<tr>
 				<th>Gestion de données</th>
 				<td>
@@ -121,6 +148,7 @@
 					</ul>
 				</td>
 			</tr>
+-->
 			<tr>
 				<th>Bureautique</th>
 				<td>
