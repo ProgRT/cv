@@ -1,95 +1,91 @@
-a {
-	text-decoration:none;
-}
-
+@charset "UTF-8";
 html {
-	height:100%;
-}
-body {
-	background: linear-gradient(to bottom, 	#B2E0C2 , #0D0D0D);
-	background: -moz-linear-gradient(to bottom, 	gray, #0D0D0D);
-	background:  url('http://upload.wikimedia.org/wikipedia/commons/1/1f/Chest_Xray_PA_3-8-2010_inverted.png');
-	background-attachment:fixed;
-	background-size: cover;
-	font-size: 10.5pt;
-	font-family: sans-serif;
-	height: 80%;
-	
+  height: 100%; }
 
-}
-/*
-body:after {
-	background:  url('http://upload.wikimedia.org/wikipedia/commons/1/1f/Chest_Xray_PA_3-8-2010_inverted.png');
-	background-size: cover;
-	background-attachment:fixed;
-  opacity: 0.6;
-	width:100%;
-	height:100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  z-index: -1;
-  content: "";
-}
-*/
-#page{
+body {
+  background: linear-gradient(to bottom, #595959, #262626);
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 10.5pt;
+  font-family: sans-serif;
+  height: 80%; }
+
+#page {
   background-color: white;
   padding: 20px;
   margin: auto;
-  margin-bottom:10px;
-  margin-top:30px;
+  margin-bottom: 10px;
+  margin-top: 30px;
   border-radius: 4px;
-}
-
-h2 {
-	border-bottom: 1px solid gray;
-	padding-left:5px;
-	font-size:large;
-}
-
-h1 {
-	display: inline;
-	display: table-cell;
-	vertical-align: bottom;
-	padding:0px;
-	margin:0px;
-}
+  box-shadow: 0px 0px 5px gray; }
 
 header {
-	border-bottom: 1px solid black;
-	width:100%;
-	display: table;
-	padding-bottom: 10px;
-	margin-bottom: 30px;
-}
+  border-bottom: 1px solid black;
+  width: 100%;
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 30px; }
 
-th {
-	text-align: left;
-	vertical-align: top;
-	padding-right: 20px;
-	width:120px;
-	font-weight:normal;
-}
-td, th {
-  padding-top:4px;
-  padding-bottom:4px;
-  }
-table {margin-left: 20px;}
-p {
-  background-color: none;
-  margin:0px;
-}
 #Coordonnees {
-	text-align:right;
-	display: table-cell;
-	vertical-align: bottom;
-}
+  /*border: 1px dashed gray */
+  text-align: left;
+  display: block;
+  vertical-align: bottom; }
+  #Coordonnees a {
+    display: inline;
+    line-height: 140%;
+    color: inherit; }
+  #Coordonnees a:after {
+    content: " ∙ ";
+    font-size: 1em;
+    color: black; }
+  #Coordonnees a:last-child:after {
+    content: ""; }
+  #Coordonnees a:hover {
+    text-decoration: underline; }
 
-#Coordonnees a {
-display: block;
-line-height: 140%;
-}
 .institution {
   font-style: italic;
-  margin-top: 0px;
-}
+  font-size: 10pt;
+  margin: 4px 0px 4px 0px; }
+
+h2 {
+  border-bottom: 1px solid gray;
+  padding-left: 5px;
+  font-size: large; }
+
+h1 {
+  /*border: 1px dashed gray */
+  display: block;
+  vertical-align: bottom;
+  padding: 0px;
+  margin: 0px; }
+
+th {
+  text-align: left;
+  vertical-align: top;
+  padding-right: 20px;
+  width: 120px;
+  font-weight: normal; }
+
+td, th {
+  padding-top: 4px;
+  padding-bottom: 4px; }
+
+table {
+  margin-left: 20px; }
+
+p {
+  background-color: none;
+  margin: 0px; }
+
+a {
+  text-decoration: none; }
+
+li {
+  padding-left: 0px; }
+
+ul {
+  padding-left: 1em; }
+
+/*# sourceMappingURL=style.css.map */
