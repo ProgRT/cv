@@ -20,6 +20,11 @@
 						  <Description>Conception et diffusion d'une formation (d'une durée de 10h) sur l'utilisation du ventilateur VDR-4</Description>
 				</Realisation>
 			</Realisations>
+			<Secteurs>
+					  <Secteur>Urgence</Secteur>
+					  <Secteur>Soins intensifs</Secteur>
+					  <Secteur>Étages</Secteur>
+			</Secteurs>
 
 		</Emploi>
 
@@ -27,18 +32,39 @@
 			<Moment>2013 à 2016</Moment>
 			<Titre>Coordonateur technique en inhalothérapie</Titre>
 			<Institution>Centre hospitalier de l'Université de Montréal</Institution>
+			<Realisations>
+					  <Realisation>Conception d'une ordonnance collective et d'un protocole concernant l'ajustement des paramètres du ventilateur VDR-4</Realisation>
+					  <Realisation>Refonte de la structure documentaire du service</Realisation>
+					  <Realisation>Rédaction de documentation(procédures, protocoles</Realisation>
+					  <Realisation>Gestion du parc d'équipements (ventilateurs ect.)</Realisation>
+					  <Realisation>Transtert de la base de documentation du service vers la plateforme AcePtm</Realisation>
+			</Realisations>
 		</Emploi>
 
 		<Emploi>
 			<Titre>Inhalotherapeute</Titre>
 			<Institution>Centre hospitalier de l'Université de Montréal</Institution>
 			<Moment>2006 à 2013</Moment>
+			<Secteurs>
+					  <Secteur>Soins intensifs</Secteur>
+					  <Secteur>Bloc opératoire</Secteur>
+					  <Secteur>Urgence</Secteur>
+					  <Secteur>Étages</Secteur>
+			</Secteurs>
 		</Emploi>
 
 		<Emploi>
 			<Titre>Inhalothérapeute</Titre>
 			<Institution>CSSS de Gatineau</Institution>
 			<Moment>2004 à 2006</Moment>
+			<Secteurs>
+					  <secteur>Pédiatrie</secteur>
+					  <Secteur>Obstétrique/Néonatalogie</Secteur>
+					  <Secteur>Bloc opératoire</Secteur>
+					  <Secteur>Urgence</Secteur>
+					  <Secteur>Soins intensifs</Secteur>
+					  <Secteur>Étages</Secteur>
+			</Secteurs>
 		</Emploi>
 
 	</Experiences>
