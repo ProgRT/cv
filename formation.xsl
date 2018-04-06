@@ -28,7 +28,9 @@
 		<section>
 		<h2>Certifications</h2>
 		<table>				
-			<xsl:apply-templates select="Certification"/>	
+				  <xsl:apply-templates select="Certification">
+							 <xsl:sort select="Moment" order="descending"/>
+				  </xsl:apply-templates>
 		</table>
 		</section>
 	</xsl:template>
