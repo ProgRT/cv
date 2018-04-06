@@ -30,7 +30,7 @@
 
 	<xsl:template match="Realisation">
 		<li>
-			<xsl:value-of select="Description"/>
+			<xsl:value-of select="current()"/>
 		</li>
 	</xsl:template>
 
