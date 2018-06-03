@@ -9,4 +9,5 @@
 	<xsl:include href="formation.xsl"/>
 	<xsl:include href="competences.xsl"/>
 	<xsl:include href="publications.xsl"/>
+	<xsl:include href="projets.xsl"/>
 </xsl:stylesheet> 

@@ -17,11 +17,12 @@
 					<xsl:apply-templates select="cv/Coordonnees"/>
 					</header>
 					<xsl:apply-templates select="cv/Experiences"/>
-					<xsl:apply-templates select="cv/Certifications"/>
-					<xsl:apply-templates select="cv/Formations"/>
 					<xsl:apply-templates select="cv/Publications"/>
+					<xsl:apply-templates select="cv/Formations"/>
+					<xsl:apply-templates select="cv/Certifications"/>
 					<xsl:apply-templates select="cv/Informatique"/>
 					<xsl:apply-templates select="cv/Langues"/>
+					<xsl:apply-templates select="cv/Projets"/>
 				</div>
 			</body>
 		</html>

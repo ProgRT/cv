@@ -7,8 +7,9 @@
 
 	<xsl:template match="cv/Coordonnees">
 		<div id="Coordonnees">
-			<xsl:apply-templates select="Telephone"/>
 			<xsl:apply-templates select="Courriel"/>	
+			<xsl:apply-templates select="Telephone"/>
+			<xsl:apply-templates select="Page"/>	
 		</div>
 	</xsl:template>
 
@@ -18,6 +19,10 @@
 
 	<xsl:template match="Telephone">
 		<a href="tel:{.}"><xsl:value-of select="current()"/></a>
+	</xsl:template>
+
+	<xsl:template match="Page">
+		<a href="{.}"><xsl:value-of select="current()"/></a>
 	</xsl:template>
 
 </xsl:stylesheet>

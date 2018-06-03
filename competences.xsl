@@ -51,6 +51,16 @@
 					</ul>
 				</td>
 			</tr>
+
+			<tr>
+				<th>Langages</th>
+				<td>
+					<ul>
+						<xsl:apply-templates select="Langage"/>	
+					</ul>
+				</td>
+			</tr>
+
 		</table>
 		</section>
 	</xsl:template>
@@ -59,7 +69,7 @@
 		<li><xsl:apply-templates select="Nom"/></li>	
 	</xsl:template>
 
-	<xsl:template match="Logiciel[Domaine='Données']">
+	<xsl:template match="Langage">
 		<li><xsl:apply-templates select="Nom"/></li>	
 	</xsl:template>
 

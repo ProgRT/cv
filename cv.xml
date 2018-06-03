@@ -6,6 +6,7 @@
 	<Coordonnees>
 		<Courriel>nicolas.blais.stlaurent@gmail.com</Courriel>
 		<Telephone>+1-438-321-7820</Telephone>
+		<Page>http://progrt.github.io/</Page>
 	</Coordonnees>
 
 	<Experiences>
@@ -33,6 +34,8 @@
 			<Titre>Coordonateur technique en inhalothérapie</Titre>
 			<Institution>Centre hospitalier de l'Université de Montréal</Institution>
 			<Realisations>
+					  <Realisation>Création d'une base de données pour la gestion de la liste de patients du service</Realisation>
+					  
 					  <Realisation>Conception d'une ordonnance collective et d'un protocole concernant l'ajustement des paramètres du ventilateur VDR-4</Realisation>
 					  <Realisation>Refonte de la structure documentaire du service</Realisation>
 					  <Realisation>Rédaction de documentation(procédures, protocoles</Realisation>
@@ -89,7 +92,7 @@
 		<Formation>
 			<Titre>Certificat en inhalothérapie</Titre>
 			<Institution>Université du Québec en Abitibi-Témiscamingue</Institution>
-			<Moment>En cours</Moment>
+			<Moment>2018</Moment>
 		</Formation>
 
 		<Formation>
@@ -142,5 +145,20 @@
 			<Domaine>Données</Domaine>
 		</Logiciel>
 
+		<Langage>
+				  <Nom>SQL</Nom>
+		</Langage>
+
+		<Langage>
+				  <Nom>Python</Nom>
+		</Langage>
 	</Informatique>
+
+	<Projets>
+									<Projet>
+																	<Nom>simvent.js</Nom>
+																	<Description>Librairie javascript de simulation dans le domaine de la ventilation mécanique. Capable de simuler différents modes de ventilation, certaines asynchronies patient - ventilateur ainsi qu'une relation pression - volume non-linéaire (symogïdale avec ou sans hystérère).</Description>
+																	<Page>http://progrt.github.io/simvent.js/</Page>
+									</Projet>
+	</Projets>
 </cv>
