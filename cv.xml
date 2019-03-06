@@ -181,7 +181,7 @@
 
 		<Projet>
 			<Nom>Servouscope</Nom>
-			<Description>Visualisateur pour données de ventilation exportées du ventilateur Servo-U.</Description>
+			<Description>Visualisateur pour données de ventilation exportées du ventilateur Servo&#8209;U.</Description>
 			<Page>http://progrt.github.io/Servouscope</Page>
 		</Projet>
 	</Projets>
