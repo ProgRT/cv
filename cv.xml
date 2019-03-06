@@ -18,7 +18,11 @@
 
 			<Realisations>
 				<Realisation>
-						  <Description>Conception et diffusion d'une formation (d'une durée de 10h) sur l'utilisation du ventilateur VDR-4</Description>
+						  <Description>Conception et diffusion d'une formation, d'une durée de 10h, sur l'utilisation du ventilateur VDR-4</Description>
+				</Realisation>
+
+				<Realisation>
+						  <Description>Conception et diffusion d'une formation sur l'IPV-2C</Description>
 				</Realisation>
 			</Realisations>
 			<Secteurs>
@@ -102,6 +106,19 @@
 		</Formation>
 
 	</Formations>
+	<FormationContinue>
+		<Formation>
+			<Titre>Attelier P.R.O.F. : Conception et Diffusion</Titre>
+			<Institution>Accadémie CHUM</Institution>
+			<Moment></Moment>
+		</Formation>
+
+		<Formation>
+			<Titre>Dioplome internationnal en ventilation artificielle</Titre>
+			<Institution>Société internationnale en ventilation artificielle</Institution>
+			<Moment></Moment>
+		</Formation>
+	</FormationContinue>
 	<Langues>
 
 		<Langue>
@@ -155,10 +172,17 @@
 	</Informatique>
 
 	<Projets>
-									<Projet>
-																	<Nom>simvent.js</Nom>
-																	<Description>Librairie javascript de simulation dans le domaine de la ventilation mécanique. Capable de simuler différents modes de ventilation, certaines asynchronies patient - ventilateur ainsi qu'une relation pression - volume non-linéaire (symogïdale avec ou sans hystérère).</Description>
-																	<Page>http://progrt.github.io/simvent.js/</Page>
-									</Projet>
+
+		<Projet>
+			<Nom>simvent.js</Nom>
+			<Description>Librairie javascript de simulation dans le domaine de la ventilation mécanique. Capable de simuler différents modes de ventilation, certaines asynchronies patient - ventilateur ainsi qu'une relation pression - volume non-linéaire (symogïdale avec ou sans hystérère).</Description>
+			<Page>http://progrt.github.io/simvent.js/</Page>
+		</Projet>
+
+		<Projet>
+			<Nom>Servouscope</Nom>
+			<Description>Visualisateur pour données de ventilation exportées du ventilateur Servo-U.</Description>
+			<Page>http://progrt.github.io/Servouscope</Page>
+		</Projet>
 	</Projets>
 </cv>
